@@ -1,5 +1,5 @@
 ﻿<UserControl
-    x:Class="CRust.FileExplorer"
+    x:Class="CRust.Controls.FileExplorer"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CRust"
@@ -9,10 +9,10 @@
     d:DesignHeight="600"
     d:DesignWidth="300">
 
-    <TreeView Background="{ThemeResource SystemControlBackgroundListLowBrush}">
+    <TreeView Background="{ThemeResource SystemControlBackgroundListLowBrush}" >
         <TreeView.RootNodes>
             <TreeViewNode Content="File Explorer" Typography.StylisticSet1="True"/>
-            <TreeViewNode Content="src" IsExpanded="True">
+            <TreeViewNode Content="src" IsExpanded="False">
                 <TreeViewNode.Children>
                     <TreeViewNode Content="main.rs"/>
                 </TreeViewNode.Children>
