@@ -12,7 +12,8 @@
         <NavigationView x:Name="NavView"
                          Loaded="NavView_Loaded"
                          ItemInvoked="NavView_ItemInvoked"
-                         BackRequested="NavView_BackRequested">
+                         BackRequested="NavView_BackRequested"
+                         IsBackButtonVisible="Collapsed">
             <NavigationView.MenuItems>
                 <NavigationViewItem Tag="home" Icon="Home" Content="Home"/>
                 <NavigationViewItemSeparator/>
@@ -56,8 +57,17 @@
             </NavigationView.AutoSuggestBox>
 
             <ScrollViewer>
-                <Frame x:Name="ContentFrame" Padding="12,0,12,24" IsTabStop="True"
-                   NavigationFailed="ContentFrame_NavigationFailed"/>
+                <Frame x:Name="ContentFrame" Padding="12,0,12,12" IsTabStop="True"
+                   NavigationFailed="ContentFrame_NavigationFailed">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <local:EditorControl Grid.Column="0"/>
+                        <local:FileExplorer Grid.Column="1"/>
+                    </Grid>
+                </Frame>
             </ScrollViewer>
         </NavigationView>
 
