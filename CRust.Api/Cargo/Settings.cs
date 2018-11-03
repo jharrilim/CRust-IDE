@@ -4,8 +4,7 @@ using System.Text;
 
 namespace CRust.Api.Cargo
 {
-    class CommandBuilder
+    class Settings
     {
-
     }
 }
