@@ -4,7 +4,11 @@ using System.Text;
 
 namespace CRust.Api.Editor.Extensibility
 {
-    class PluginManager
+    /// <summary>
+    /// Manages plugins for the Editor. All of the extra Editor features
+    /// should be added throughthe plugin manager.
+    /// </summary>
+    public class PluginManager
     {
         private Dictionary<string, IPlugin> plugins;
 

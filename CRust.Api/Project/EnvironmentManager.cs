@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 namespace CRust.Api.Project
 {
+    /// <summary>
+    /// Manages project specific settings for CRust. Settings that are placed here should take
+    /// precedence over the settings found in %USERPROFILE%/.crust.
+    /// </summary>
     class EnvironmentManager
     {
         private static string crustDirName = ".crust";

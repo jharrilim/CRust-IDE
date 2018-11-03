@@ -5,6 +5,9 @@ using System.Text;
 
 namespace CRust.Api.Cargo.Command
 {
+    /// <summary>
+    /// The start of the fluent API for building Cargo commands.
+    /// </summary>
     public class CommandBuilder
     {
         private string baseCmd;

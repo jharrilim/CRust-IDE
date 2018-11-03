@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CRust.Api.Editor.Extensibility
 {
-    interface IPlugin
+    public interface IPlugin
     {
         void OnLoad();
     }
