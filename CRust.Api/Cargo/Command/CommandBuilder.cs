@@ -14,7 +14,7 @@ namespace CRust.Api.Cargo.Command
 
         public CommandBuilder()
         {
-            baseCmd = Commands.Cargo;
+            baseCmd = "";
         }
 
         public RunCommandBuilder Run()

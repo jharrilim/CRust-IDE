@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRust", "CRust\CRust.csproj", "{C193B584-CE9B-4AA3-8A14-DBD2B3A17847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRust.Api", "CRust.Api\CRust.Api.csproj", "{B986EB99-508F-4213-B8F0-AC47B317007D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRust.Api", "CRust.Api\CRust.Api.csproj", "{B986EB99-508F-4213-B8F0-AC47B317007D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRust.Api.Tests", "CRust.Api.Tests\CRust.Api.Tests.csproj", "{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,22 @@ Global
 		{B986EB99-508F-4213-B8F0-AC47B317007D}.Release|x64.Build.0 = Release|Any CPU
 		{B986EB99-508F-4213-B8F0-AC47B317007D}.Release|x86.ActiveCfg = Release|Any CPU
 		{B986EB99-508F-4213-B8F0-AC47B317007D}.Release|x86.Build.0 = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|ARM.Build.0 = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|ARM.ActiveCfg = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|ARM.Build.0 = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|x64.Build.0 = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD675D5B-B25D-4431-BDA3-ACFF42A65F81}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
